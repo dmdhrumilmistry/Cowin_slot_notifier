@@ -79,6 +79,8 @@
    > All the dependencies will be installed automatically when you run `pip install -r requirements.txt`
   
   
+### Feel Free to create issue or Pull Requests
+  
 ### Support Me on:
 
   <p align ="left">
