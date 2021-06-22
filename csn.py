@@ -78,11 +78,11 @@ while wanna_check:
 
         if eligible_centers_count != 0:
             print(table)
+            print('[*] Visit https://selfregistration.cowin.gov.in/ to register your slot.')
             notify(eligible_centers_count)
         
         else:
             print('[-] No slots available, according to specified details.')
-            print(table)
 
         print('[*] Press Control+C simultaneously to exit.')
         sleep(delay)
@@ -99,4 +99,4 @@ while wanna_check:
         
 
 print('\n[*] Thank You For using COWIN SLOT NOTIFIER...')
-print('\n[*] This program is written by DHRUMIL MISTRY')
+print('[*] This program is written by DHRUMIL MISTRY\n')
