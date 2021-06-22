@@ -30,7 +30,7 @@
     
   - Edit details.txt as per your need.
  
-    <img src="https://github.com/dmdhrumilmistry/Cowin_slot_notifier/blob/main/.images/1-details.png?raw=true" alt="Details.txt">
+    <img src="https://github.com/dmdhrumilmistry/Cowin_slot_notifier/blob/main/.images/1-details.png" alt="Details.txt">
     
   - run the csn.py file using
     ```
@@ -62,7 +62,7 @@
     |   551888  | NAZRETH HIGH SCHOOL B W COVA | Nazreth High School Behind Mbmc Bhy West | 11:00:00-17:00:00 |       18      |
     +-----------+------------------------------+------------------------------------------+-------------------+---------------+
     ```
-    <img src=" " alt="notification image"> 
+    <img src="https://github.com/dmdhrumilmistry/Cowin_slot_notifier/blob/main/.images/2-notification.png" alt="notification image"> 
 
  
  ### Dependencies
