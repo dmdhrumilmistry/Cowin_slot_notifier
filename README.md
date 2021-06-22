@@ -1,7 +1,7 @@
 # COWIN SLOT NOTIFIER (CSN)
 
 <i>COWIN SLOT NOTIFIER</i> notifies user about the slots available according to their details entered in <strong>details.txt</strong> file. 
-
+This program can run in the background while you work on your machine and notifies you whenever a slot is available.
 
 ## How to use
   - Install [Python](https://www.python.org/) for your machine.
@@ -97,6 +97,8 @@
   
   
 ### Feel Free to create issue or Pull Requests
+If you face any issue or have any ideas do create an issue.
+This is an open source software so feel free to pull requests.
   
 ### Support Me on:
 
