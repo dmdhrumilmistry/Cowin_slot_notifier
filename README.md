@@ -61,10 +61,27 @@
 +-----------+------------------------------+------------------------------------------+-------------------+---------------+---------+------+--------------------+----+----+
 |   551888  | NAZRETH HIGH SCHOOL B W COVA | Nazreth High School Behind Mbmc Bhy West | 11:00:00-17:00:00 |       18      | COVAXIN | Free |         95         | 0  | 95 |
 +-----------+------------------------------+------------------------------------------+-------------------+---------------+---------+------+--------------------+----+----+
+[*] Visit https://selfregistration.cowin.gov.in/ to register your slot.
+[*] Press Control+C simultaneously to exit.
   ```
  <img src="https://github.com/dmdhrumilmistry/Cowin_slot_notifier/blob/main/.images/2-notification.png" alt="notification image"> 
 
+ - If no slots are found
+ ```
+[*] Total Centers Available:  4
+[*] Eligible Centers Count :  0
+[-] No slots available, according to specified details.
+[*] Press Control+C simultaneously to exit.
+ ```
  
+ - When Control+C is pressed.
+```
+[-] Keyboard Interrupt Detected! 
+
+[*] Thank You For using COWIN SLOT NOTIFIER...
+[*] This program is written by DHRUMIL MISTRY 
+```
+
  ### Dependencies
 
    **`API SETU COWIN PUBLIC API `** requires following libraries to run properly -
