@@ -53,16 +53,16 @@
     
     ```
   - If slots are found
-    ```
-    [*] Total Centers Available:  2
-    [*] Eligible Centers Count :  1
-    +-----------+------------------------------+------------------------------------------+-------------------+---------------+
-    | Center ID |             Name             |                 Address                  |        Time       | Min Age Limit |
-    +-----------+------------------------------+------------------------------------------+-------------------+---------------+
-    |   551888  | NAZRETH HIGH SCHOOL B W COVA | Nazreth High School Behind Mbmc Bhy West | 11:00:00-17:00:00 |       18      |
-    +-----------+------------------------------+------------------------------------------+-------------------+---------------+
-    ```
-    <img src="https://github.com/dmdhrumilmistry/Cowin_slot_notifier/blob/main/.images/2-notification.png" alt="notification image"> 
+  ```
+[*] Total Centers Available:  2
+[*] Eligible Centers Count :  1
++-----------+------------------------------+------------------------------------------+-------------------+---------------+---------+------+--------------------+----+----+
+| Center ID |             Name             |                 Address                  |        Time       | Min Age Limit | Vaccine | Fee  | Available Capacity | D1 | D2 |
++-----------+------------------------------+------------------------------------------+-------------------+---------------+---------+------+--------------------+----+----+
+|   551888  | NAZRETH HIGH SCHOOL B W COVA | Nazreth High School Behind Mbmc Bhy West | 11:00:00-17:00:00 |       18      | COVAXIN | Free |         95         | 0  | 95 |
++-----------+------------------------------+------------------------------------------+-------------------+---------------+---------+------+--------------------+----+----+
+  ```
+ <img src="https://github.com/dmdhrumilmistry/Cowin_slot_notifier/blob/main/.images/2-notification.png" alt="notification image"> 
 
  
  ### Dependencies
