@@ -1,0 +1,4 @@
+age_limit:18
+pincode:401101
+date:22-06-2021
+delay:5
