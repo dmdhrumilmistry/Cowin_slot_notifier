@@ -55,12 +55,22 @@ while wanna_check:
 
         ### for table ###
         table = PrettyTable()
-        table.field_names = ['Center ID', 'Name', 'Address', 'Time', 'Min Age Limit'] 
+        table.field_names = ['Center ID', 'Name', 'Address', 'Time', 'Min Age Limit', 'Vaccine', 'Fee', 'Available Capacity', 'D1', 'D2'] 
 
         for session in sessions:
-            if age_limit == session['min_age_limit']:
+            if age_limit == session['min_age_limit'] and session['available_capacity'] != 0:
                 eligible_centers_count += 1
-                table.add_row([session['center_id'], session['name'], session['address'], f"{session['from']}-{session['to']}", session['min_age_limit']])
+                table.add_row([ session['center_id'],
+                                session['name'], 
+                                session['address'], 
+                                f"{session['from']}-{session['to']}", 
+                                session['min_age_limit'], 
+                                session['vaccine'],
+                                session['fee_type'], 
+                                session['available_capacity'],
+                                session['available_capacity_dose1'],
+                                session['available_capacity_dose2']
+                                ])
 
         # print data
         print('[*] Total Centers Available: ', total_centers)
