@@ -50,21 +50,29 @@ This program can run in the background while you work on your machine and notifi
     [2] PINCODE : 401101
     [3] DATE : 22-06-2021
     [4] DELAY (in s): 5
-    
+    [5] DOSE : 2
     ```
   - If slots are found
   ```
-[*] Total Centers Available:  2
+[*] Total Centers Available:  1
 [*] Eligible Centers Count :  1
 +-----------+------------------------------+------------------------------------------+-------------------+---------------+---------+------+--------------------+----+----+
 | Center ID |             Name             |                 Address                  |        Time       | Min Age Limit | Vaccine | Fee  | Available Capacity | D1 | D2 |
 +-----------+------------------------------+------------------------------------------+-------------------+---------------+---------+------+--------------------+----+----+
-|   551888  | NAZRETH HIGH SCHOOL B W COVA | Nazreth High School Behind Mbmc Bhy West | 11:00:00-17:00:00 |       18      | COVAXIN | Free |         95         | 0  | 95 |
+|   551888  | NAZRETH HIGH SCHOOL B W COVA | Nazreth High School Behind Mbmc Bhy West | 11:00:00-17:00:00 |       18      | COVAXIN | Free |         97         | 0  | 97 |
 +-----------+------------------------------+------------------------------------------+-------------------+---------------+---------+------+--------------------+----+----+
 [*] Visit https://selfregistration.cowin.gov.in/ to register your slot.
-[*] Press Control+C simultaneously to exit.
+[*] COWIN LINK has been copied to your clipboard. Now open your browser and paste link in URL.
+[*] Opening your Default browser...
   ```
- <img src="https://github.com/dmdhrumilmistry/Cowin_slot_notifier/blob/main/.images/2-notification.png" alt="notification image"> 
+   - Notification Image
+   
+   <img src="https://github.com/dmdhrumilmistry/Cowin_slot_notifier/blob/main/.images/2-notification.png" alt="notification image"> 
+   
+   - Browser Image
+   
+   <img src="https://github.com/dmdhrumilmistry/Cowin_slot_notifier/blob/main/.images/3-browser.png" alt="browser image"> 
+   
 
  - If no slots are found
  ```
@@ -95,11 +103,16 @@ This program can run in the background while you work on your machine and notifi
 
    > All the dependencies will be installed automatically when you run `pip install -r requirements.txt`
   
-  
+   > Tested on Windows10 and Windows7.
+
 ### Feel Free to create issue or Pull Requests
 If you face any issue or have any ideas do create an issue.
 This is an open source software so feel free to pull requests.
   
+### Contributions
+Need collaborators for Android and Linux
+
+
 ### Support Me on:
 
   <p align ="left">
