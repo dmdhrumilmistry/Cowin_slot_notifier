@@ -30,8 +30,27 @@ This program can run in the background while you work on your machine and notifi
     
   - Edit details.txt as per your need.
  
-    <img src="https://github.com/dmdhrumilmistry/Cowin_slot_notifier/blob/main/.images/1-details.png" alt="Details.txt">
+    <img src="https://github.com/dmdhrumilmistry/Cowin_slot_notifier/blob/main/.images/1-details.png" alt="Details.txt"> <br>
     
+     ```
+    NOTE:
+    1. Make sure there's no space between variable and value. It should be in <variable>:<value> format
+       eg. i. age_limit:18
+          ii. age_limit:45
+
+    2. Enter date in dd-mm-yyyy format, pad date with 0's for single values.
+       eg. i. 23-06-2021
+          ii. 01-07-2021
+
+    3. Enter delay in seconds.
+
+    4. Enter which dose you want to opt for 1 or 2.
+       eg. i. dose:1
+          ii. dose:2
+
+    ```
+  
+ 
   - run the csn.py file using
     ```
     $ python csn.py
@@ -50,21 +69,30 @@ This program can run in the background while you work on your machine and notifi
     [2] PINCODE : 401101
     [3] DATE : 22-06-2021
     [4] DELAY (in s): 5
-    
+    [5] DOSE : 2
     ```
   - If slots are found
   ```
-[*] Total Centers Available:  2
+[*] Total Centers Available:  1
 [*] Eligible Centers Count :  1
 +-----------+------------------------------+------------------------------------------+-------------------+---------------+---------+------+--------------------+----+----+
 | Center ID |             Name             |                 Address                  |        Time       | Min Age Limit | Vaccine | Fee  | Available Capacity | D1 | D2 |
 +-----------+------------------------------+------------------------------------------+-------------------+---------------+---------+------+--------------------+----+----+
-|   551888  | NAZRETH HIGH SCHOOL B W COVA | Nazreth High School Behind Mbmc Bhy West | 11:00:00-17:00:00 |       18      | COVAXIN | Free |         95         | 0  | 95 |
+|   551888  | NAZRETH HIGH SCHOOL B W COVA | Nazreth High School Behind Mbmc Bhy West | 11:00:00-17:00:00 |       18      | COVAXIN | Free |         97         | 0  | 97 |
 +-----------+------------------------------+------------------------------------------+-------------------+---------------+---------+------+--------------------+----+----+
 [*] Visit https://selfregistration.cowin.gov.in/ to register your slot.
-[*] Press Control+C simultaneously to exit.
+[*] COWIN LINK has been copied to your clipboard. Now open your browser and paste link in URL.
+[*] Opening your Default browser...
   ```
- <img src="https://github.com/dmdhrumilmistry/Cowin_slot_notifier/blob/main/.images/2-notification.png" alt="notification image"> 
+   - Notification Image
+   
+   <img src="https://github.com/dmdhrumilmistry/Cowin_slot_notifier/blob/main/.images/2-notification.png" alt="notification image"> 
+   
+   
+   - Browser Image
+   
+   <img src="https://github.com/dmdhrumilmistry/Cowin_slot_notifier/blob/main/.images/3-browser.png" alt="browser image"> 
+   
 
  - If no slots are found
  ```
@@ -95,11 +123,18 @@ This program can run in the background while you work on your machine and notifi
 
    > All the dependencies will be installed automatically when you run `pip install -r requirements.txt`
   
-  
+   > Tested on Windows10 and Windows7.
+
 ### Feel Free to create issue or Pull Requests
 If you face any issue or have any ideas do create an issue.
 This is an open source software so feel free to pull requests.
   
+### Contributions
+- Need collaborators for Android and Linux Operating Systems.
+- Anyone interested to contribute to this project, fork this repository and make necessary changes and create a pull request.
+- Help me to make this documentation better.
+- Have any ideas? create an issue.
+
 ### Support Me on:
 
   <p align ="left">

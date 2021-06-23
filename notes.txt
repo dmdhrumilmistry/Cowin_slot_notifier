@@ -1,0 +1,23 @@
+NOTE:
+1. Make sure there's no space between variable and value. It should be in <variable>:<value> format
+   eg. i. age_limit:18
+      ii. age_limit:45
+
+2. Enter date in dd-mm-yyyy format, pad date with 0's for single values.
+   eg. i. 23-06-2021
+      ii. 01-07-2021
+
+3. Enter delay in seconds.
+
+4. Enter which dose you want to opt for 1 or 2.
+   eg. i. dose:1
+      ii. dose:2
+
+--------------------------------------------------
+details.txt:
+
+age_limit:18
+pincode:401101
+date:22-06-2021
+delay:5
+dose:2

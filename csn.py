@@ -31,6 +31,8 @@ try:
     print(f'[3] DATE : {date}')
     delay = int(re.search('(?:delay:)(\d+)', details[3]).group(1)) 
     print(f'[4] DELAY (in s): {delay}')
+    dose = int(re.search('(?:dose:)(\d)', details[4]).group(1)) 
+    print(f'[5] DOSE : {dose}')
     sleep(3)
 
 except Exception as e:
@@ -58,7 +60,7 @@ while wanna_check:
         table.field_names = ['Center ID', 'Name', 'Address', 'Time', 'Min Age Limit', 'Vaccine', 'Fee', 'Available Capacity', 'D1', 'D2'] 
 
         for session in sessions:
-            if age_limit == session['min_age_limit'] and session['available_capacity'] != 0:
+            if age_limit == session['min_age_limit'] and session['available_capacity'] != 0 and session[f'available_capacity_dose{dose}'] != 0:
                 eligible_centers_count += 1
                 table.add_row([ session['center_id'],
                                 session['name'], 
@@ -79,6 +81,10 @@ while wanna_check:
         if eligible_centers_count != 0:
             print(table)
             print('[*] Visit https://selfregistration.cowin.gov.in/ to register your slot.')
+            if copy_cowin_link():
+                print('[*] COWIN LINK has been copied to your clipboard. Now open your browser and paste link in URL.')
+                print('[*] Opening your Default browser...')
+                open_browser()
             notify(eligible_centers_count)
         
         else:
