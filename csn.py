@@ -83,6 +83,7 @@ while wanna_check:
             print('[*] Visit https://selfregistration.cowin.gov.in/ to register your slot.')
             if copy_cowin_link():
                 print('[*] COWIN LINK has been copied to your clipboard. Now open your browser and paste link in URL.')
+                print('[*] Opening your Default browser...')
                 open_browser()
             notify(eligible_centers_count)
         
