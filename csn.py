@@ -81,6 +81,8 @@ while wanna_check:
         if eligible_centers_count != 0:
             print(table)
             print('[*] Visit https://selfregistration.cowin.gov.in/ to register your slot.')
+            if copy_cowin_link():
+                print('[*] COWIN LINK has been copied to your clipboard. Now open your browser and paste link in URL.')
             notify(eligible_centers_count)
         
         else:
