@@ -1,9 +1,8 @@
 import os
-import re
 from prettytable.prettytable import NONE
 from win10toast import ToastNotifier
 import pyperclip
-
+import webbrowser
 
 def clrscr():
    if os.name == 'posix':
@@ -27,5 +26,13 @@ def copy_cowin_link()->bool:
       return True
    except Exception as e:
       print('[-] An Exception occurred while copying COWIN portal link to clipboard.')
+      print(e)
+      return False
+
+def open_browser():
+   try:
+      webbrowser.WindowsDefault().open('https://selfregistration.cowin.gov.in/')
+   except Exception as e:
+      print('[-] An Exception occurred while opening webbrowser.')
       print(e)
       return False
