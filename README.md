@@ -135,6 +135,10 @@ This is an open source software so feel free to pull requests.
 - Help me to make this documentation better.
 - Have any ideas? create an issue.
 
+### Liked this repo and my work
+- Leave a star ⭐
+- Share with others 
+
 ### Support Me on:
 
   <p align ="left">
