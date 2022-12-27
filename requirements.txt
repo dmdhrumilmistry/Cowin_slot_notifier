@@ -1,6 +1,6 @@
 requests==2.25.1
 prettytable==2.1.0
 pywin32==300
-setuptools==49.2.1
+setuptools==65.5.1
 win10toast==0.9
 pyperclip==1.8.2
